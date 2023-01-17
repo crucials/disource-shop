@@ -1,7 +1,0 @@
-- Reviews section
-    1. Review's weight (review with more likes will be more valuable when calculating average rate)\
-    2. Attach images to reviews
-
-
-- Products catalog section
-    1. More products filters, like stock availability or positive reviews
