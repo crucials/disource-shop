@@ -1,5 +1,5 @@
 <template>
-    <aside class="bg-white border-r-2 border-neutral-200 min-h-screen w-1/5 min-w-2.5 sm:fixed sm:top-0 
+    <div class="bg-white border-r-2 border-neutral-200 min-h-screen w-1/5 min-w-2.5 sm:fixed sm:top-0 
         sm:h-screen sm:w-full sm:transition-[left] sm:duration-700 sm:z-10" 
         :class="openedOnMobile ? 'sm:left-0' : 'sm:-left-full'">
         <div class="fixed p-6 w-1/6 min-w-2.5 sm:static sm:w-full">
@@ -33,7 +33,7 @@
                 </p>
             </div>
         </div>
-    </aside>
+    </div>
 </template>
 
 <script lang="ts" setup>
